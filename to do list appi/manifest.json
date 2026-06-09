@@ -1,0 +1,26 @@
+{
+  "name": "Tehtävälista",
+  "short_name": "Tehtävät",
+  "description": "Premium tehtävälistasovellus",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#6366f1",
+  "background_color": "#fdf4ff",
+  "lang": "fi",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [],
+  "categories": ["productivity"],
+  "shortcuts": [
+    {
+      "name": "Uusi tehtävä",
+      "short_name": "Lisää",
+      "description": "Lisää uusi tehtävä",
+      "url": "/?new=1",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
